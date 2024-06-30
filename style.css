@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #EEEDEB;
+}
+
+header{
+    /* height: 70px; */
+    background-color: #939185;
+    padding: 20px 20px;
+}
+
+header h3{
+   color: white;
+   text-align: center;
+   font-size:30px;
+   font-weight: 900;
+}
+
+.search-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-container #username{
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+outline: none;
+width: 400px;
+}
+.search-container #serach-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: 900;
+}
+
+#user-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#userDetail{
+    margin-top: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.name-text{
+    color:red;
+}
+#userDetail .user-name{
+    padding-top:10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+#userDetail p{
+    margin-top: 10px;
+}
+
+#userDetail .github-link{
+  margin-top: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+ 
+  background-color: white;
+  color:black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 900;
+  transition: .3s;
+}
+
+#userDetail .github-link:hover{
+    background-color: black;
+  color: white;
+}
