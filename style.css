@@ -56,6 +56,7 @@ width: 400px;
 #userDetail{
     margin-top: 5px;
    display: flex;
+    padding:10px;
    justify-content: center;
    align-items: center;
    flex-direction: column;
